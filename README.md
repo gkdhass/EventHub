@@ -1,89 +1,69 @@
-Campus EventHub
+# 🎓 Campus EventHub
 
-Campus EventHub is a modern web application designed to help students discover, register, and manage campus events efficiently. The platform provides an intuitive interface for viewing event details, registering for events, and managing user registrations.
+Campus EventHub is a modern web application designed to help students discover, register for, and manage campus events efficiently.  
+The platform provides an intuitive interface for browsing events, viewing detailed information, and managing registrations with ease.
 
-Features
+---
 
-User Authentication
+## ✨ Features
 
-Sign up, login, and secure session management.
+### 🔐 User Authentication
+- Secure sign up and login
+- JWT-based session management
 
-Event Management
+### 📅 Event Management
+- View all campus events with detailed information
+- Filter events by category or organizer
 
-View all campus events with detailed information.
+### 📝 Event Registration
+- One-click event registration
+- Easy cancellation of registrations
+- View all registered events in one place
 
-Filter events by category or organizer.
+### 📱 Responsive UI
+- Optimized for small, medium, and large screens
+- Modern UI with cards, banners, badges, and gradient buttons
 
-Event Registration
+### 🔔 Notifications
+- Real-time success and error messages using toast notifications
 
-Register for events with one click.
+---
 
-Cancel registration easily.
+## 🛠 Tech Stack
 
-View personal registrations.
+### Frontend
+- React
+- Bootstrap
+- React Icons
+- React Router DOM
+- React Toastify
 
-Responsive UI
+### Backend
+- Node.js
+- Express.js (RESTful APIs)
 
-Optimized for small, medium, and large screens.
+### Database
+- MongoDB
 
-Beautiful cards, banners, badges, and gradient buttons.
+### Other Tools
+- Axios for API requests
+- JWT Authentication
 
-Notifications
+---
 
-Real-time feedback with success/error messages using toast notifications.
+## 🖼 Screenshots
 
-Tech Stack
+_Add screenshots of your application here_
 
-Frontend: React, Bootstrap, React Icons, React Router DOM, React Toastify
+- Event List Page  
+- Event Details Page  
+- Registration Success / Error Toast  
 
-Backend: Node.js, Express.js (API services)
+---
 
-Database: MongoDB
+## ⚙️ Installation
 
-Other Tools: Axios for API calls, JWT authentication, RESTful APIs
-
-Screenshots
-
-(You can add screenshots of your app here)
-
-Event List Page
-
-Event Details Page
-
-Registration Success / Error Toast
-
-Installation
-
-Clone the repository
-
+### Clone the Repository
+```bash
 git clone https://github.com/yourusername/campus-eventhub.git
 cd campus-eventhub
-
-
-Install dependencies
-
-npm install
-
-
-Start the frontend
-
-npm run dev
-
-
-Start the backend server (in backend folder if separate)
-
-cd backend
-npm install
-npm start
-
-Usage
-
-Open your browser and go to http://localhost:5173 (or the port your frontend runs on).
-
-Sign up or login to your account.
-
-Browse available campus events.
-
-Click on an event to see detailed information.
-
-Register or cancel registration with a single click.
